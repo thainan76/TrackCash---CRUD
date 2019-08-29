@@ -1,0 +1,8 @@
+CREATE TABLE user (
+	id int(11) AUTO_INCREMENT PRIMARY KEY ,
+	marketplace VARCHAR(125) NOT NULL,
+	usuario VARCHAR(50) NOT NULL,
+	senha VARCHAR(150) NOT NULL,
+	token VARCHAR(255) NOT NULL
+);
+	
